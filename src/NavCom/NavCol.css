@@ -1,0 +1,10 @@
+.hover-danger {
+  transition: color 0.3s ease;
+}
+.hover-danger:hover 
+{
+  color: #dc3545 !important;
+}
+button:active{
+  color:#dc3545
+}
