@@ -22,7 +22,7 @@ const App = () => {
         <NavCol/>
         {/* <Chatbox/> */}
         </div>
-        <div className="col-10 col-md-9">
+        <div className="col-10 col-md-9 p-0">
 
           <div className='row'>
                 
