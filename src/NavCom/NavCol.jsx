@@ -5,9 +5,9 @@ import './NavCol.css';
 const NavCol = () => {
   return (
     <div
-      className="px-2 py-3 mx-2 my-2  sidebar rounded-4"
+      className="px-2 py-3  my-2  sidebar rounded-4"
       style={{
-       maxWidth:'250px',
+       maxWidth:'270px',
        minWidth:"80px",
         height: '100vh',
         backgroundColor: 'rgb(76,53,117)',
