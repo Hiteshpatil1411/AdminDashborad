@@ -16,14 +16,18 @@ const App = () => {
     <>
     
       <Router>
-        <HeadBar/>
+          <div className="container-fluid">
+          <div className="row">
+            <div className="col-2 col-md-3 " >
         <NavCol/>
-        <Chatbox/>
+        {/* <Chatbox/> */}
+        </div>
+        <div className="col-10 col-md-9">
+
           <div className='row'>
-            <div className="col-md-3 " style={{width:"300px"}} >
                 
-            </div>
-            <div className="col-md-9 " >
+            
+            
               <SearchB/>
 
         <Routes>
@@ -38,6 +42,9 @@ const App = () => {
         </Routes>
         </div>
         </div>
+        </div>
+            
+            </div>  
       </Router>
       
     
