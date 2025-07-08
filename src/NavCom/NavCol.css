@@ -8,3 +8,10 @@
 button:active{
   color:#dc3545
 }
+li{
+  min-width: none;
+}
+.sidebar{
+  position: fixed;
+  top:"0px"
+}
